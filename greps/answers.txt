@@ -58,13 +58,9 @@ filescan_00.4
 	> wartortle
 
 # Part 2
-### a)
-
-
+### a) # of Pokemon = 14
+grep used(in forest directory): grep zcw * | wc -l
 
 ### b)
-Biggest Pokemon: Pikachu, Beedrill, Charizard
-
-
-
-
+Biggest Pokemon(all 40 lines): Pikachu, Beedrill, Charizard
+> In captured directory, I used wc -l * | sort to get the number of lines for each captured pokemon file.
